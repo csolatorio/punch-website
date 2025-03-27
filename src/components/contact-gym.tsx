@@ -9,24 +9,24 @@ const ContactGym = () => {
             <input
               type="text"
               placeholder="First name"
-              className="w-1/2 p-2 border rounded bg-gray-200"
+              className="w-1/2 p-2  rounded bg-[#EBE8DE] text-gray-800"
             />
             <input
               type="text"
               placeholder="Last name"
-              className="w-1/2 p-2 border rounded bg-gray-200"
+              className="w-1/2 p-2  rounded bg-[#EBE8DE] text-gray-800"
             />
           </div>
           <input
             type="email"
             placeholder="Email"
-            className="w-full p-2 border rounded bg-gray-200"
+            className="w-full p-2 rounded bg-[#EBE8DE] text-gray-800"
           />
           <textarea
             placeholder="Message"
-            className="w-full p-2 border rounded bg-gray-200 h-24"
+            className="w-full p-2 rounded bg-[#EBE8DE] text-gray-800 h-24"
           />
-          <button className="px-4 py-2 bg-black text-white rounded shadow-lg">
+          <button className="px-6 py-3 bg-black text-white rounded shadow-lg">
             Send
           </button>
         </form>
