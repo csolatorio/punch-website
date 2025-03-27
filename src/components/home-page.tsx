@@ -7,6 +7,7 @@ import CorporateWellness from "./corporate-wellness";
 import AboutUs from "./about-us";
 import CTABanner from "./ctabanner";
 import PromoPage from "./promo-page";
+import ContactGym from "./contact-gym";
 
 const HomePage = () => {
   return (
@@ -18,6 +19,7 @@ const HomePage = () => {
       <AboutUs />
       <CTABanner />
       <PromoPage />
+      <ContactGym />
       <Footer />
     </div>
   );

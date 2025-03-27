@@ -11,6 +11,7 @@ import CorporateWellness from "./components/corporate-wellness";
 import AboutUs from "./components/about-us";
 import CTABanner from "./components/ctabanner";
 import PromoPage from "./components/promo-page";
+import ContactGym from "./components/contact-gym";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/cta-banner" element={<CTABanner />} />
           <Route path="/promo-page" element={<PromoPage />} />
+          <Route path="/contact-gym" element={<ContactGym />} />
         </Routes>
       </Router>
     </>
