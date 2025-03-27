@@ -1,5 +1,4 @@
 import heroBanner from "../assets/hero-banner.png";
-// import { FaWhatsapp } from "react-icons/fa";
 
 import Navbar from "./navbar";
 

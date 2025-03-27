@@ -7,7 +7,7 @@ const PromoPage: React.FC = () => {
       className="relative w-full h-screen bg-cover bg-center flex items-center justify-start"
       style={{ backgroundImage: `url(${GymImage})` }}
     >
-      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+      <div className="absolute inset-0 bg-opacity-50"></div>
       <div className="relative bg-[#EBE8DE] p-8 md:p-12 max-w-lg shadow-lg ml-10 md:ml-16">
         <h2 className="text-2xl md:text-3xl font-semibold text-black">
           Get 50% off of first PT

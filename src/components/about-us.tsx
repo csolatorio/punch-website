@@ -33,19 +33,11 @@ const AboutUs = () => {
           <img
             src={Image1}
             alt="Stacey Pincher"
-            className="w-400 h-400 object-cover rounded"
+            className="w-400 object-cover rounded"
           />
           <div className="grid grid-cols-2 gap-2">
-            <img
-              src={Image2}
-              alt=""
-              className="w-200 h-200 object-cover rounded"
-            />
-            <img
-              src={Image3}
-              alt=""
-              className="w-200 h-200 object-cover rounded"
-            />
+            <img src={Image2} alt="" className="w-200 object-cover rounded" />
+            <img src={Image3} alt="" className="w-200 object-cover rounded" />
           </div>
         </div>
       </div>
@@ -56,7 +48,7 @@ const AboutUs = () => {
           <img
             src={Image4}
             alt="Boxing Training"
-            className="w-full md:w-430 h-430 object-cover rounded"
+            className="w-full md:w-430 object-cover rounded"
           />
         </div>
         <div className="md:col-span-2">
