@@ -1,8 +1,10 @@
 import { useState } from "react";
 import Logo from "../assets/logo.png";
 import { Menu, X } from "lucide-react";
+import { useNavigate, Link } from "react-router-dom";
 
 const Navbar: React.FC = () => {
+  const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -14,34 +16,35 @@ const Navbar: React.FC = () => {
 
       {/* Desktop Menu */}
       <ul className="hidden md:flex items-center space-x-6 justify-end flex-grow">
-        <a className="p-3 xl:p-6 active" href="">
-          <span>Home</span>
-        </a>
-        <a className="p-3 xl:p-6" href="">
-          <span>Personal Training</span>
-        </a>
+        <Link to="/">
+          <a className="p-3 xl:p-6" onClick={() => navigate("/")}>
+            <span>Home</span>
+          </a>
+        </Link>
+        <Link to="/personal-training">
+          <a className="p-3 xl:p-6" href="">
+            <span>Personal Training</span>
+          </a>
+        </Link>
+
         <div className="relative group">
           <a className="p-3 xl:p-6 cursor-pointer">
-            <span>Corporate Classes ▾</span>
+            <span>Classes ▾</span>
           </a>
-          <div className="absolute right-0 mt-2 w-48 bg-white shadow-lg rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <div className="absolute z-10 right-0 mt-2 w-48 bg-white shadow-lg rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <a href="" className="block px-4 py-2 hover:bg-gray-100">
               Group Classes
             </a>
-            <a href="" className="block px-4 py-2 hover:bg-gray-100">
-              Corporate Classes
-            </a>
-            <a href="" className="block px-4 py-2 hover:bg-gray-100">
-              Team Building
-            </a>
-            <a href="" className="block px-4 py-2 hover:bg-gray-100">
-              Small Group Training
-            </a>
+            <Link to="/corporate-wellness">
+              <a href="" className="block px-4 py-2 hover:bg-gray-100">
+                Corporate Classes
+              </a>
+            </Link>
+            {/* <a href="" className="block px-4 py-2 hover:bg-gray-100">
+              Small Group Classes
+            </a> */}
           </div>
         </div>
-        <a className="p-3 xl:p-6" href="">
-          <span>About</span>
-        </a>
         <a className="p-3 xl:p-6" href="">
           <span>Contact Us</span>
         </a>

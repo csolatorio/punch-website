@@ -14,6 +14,10 @@ const AboutUs = () => {
             <div className="w-5 h-16 bg-[#EBE8DE]"></div>
             <h2 className="text-3xl md:text-4xl font-bold">About Us</h2>
           </div>
+          <h2 className="text-3xl md:text-4xl font-bold">Stacey Pincher</h2>
+          <p className="mt-4 text-gray font-bold">
+            OWNER / FOUNDER / HEAD COACH
+          </p>
           <p className="mt-4 text-gray-700">
             With 17 years of self-defense and boxing experience, along with 14
             years of military service, Stacey Pincher brings unparalleled

@@ -12,6 +12,7 @@ import AboutUs from "./components/about-us";
 import CTABanner from "./components/ctabanner";
 import PromoPage from "./components/promo-page";
 import ContactGym from "./components/contact-gym";
+import PersonalTraining from "./components/personal-training";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/cta-banner" element={<CTABanner />} />
           <Route path="/promo-page" element={<PromoPage />} />
           <Route path="/contact-gym" element={<ContactGym />} />
+          <Route path="/personal-training" element={<PersonalTraining />} />
         </Routes>
       </Router>
     </>
