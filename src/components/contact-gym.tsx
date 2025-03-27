@@ -39,9 +39,13 @@ const ContactGym = () => {
           <span className="font-extrabold">Causeway Bay, HK</span>
         </h2>
         <p className="mb-4">
-          We are currently located on the 17/F, Sun King Building, 56 Yee Wo
-          Street, Causeway Bay, Hong Kong SAR, making it easy for you to
-          experience the best boxing training Hong Kong has to offer.
+          We are currently located on the{" "}
+          <b>
+            RY Fitness - 17/F, Sun King Building, 56 Yee Wo Street, Causeway
+            Bay, Hong Kong SAR
+          </b>
+          , making it easy for you to experience the best boxing training Hong
+          Kong has to offer.
         </p>
         <iframe
           className="w-full h-64 border rounded"

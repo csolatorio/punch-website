@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
     <header className="bg-[#EBE8DE] shadow-lg h-24 flex items-center px-4 md:px-6 lg:px-8">
       {/* Logo */}
       <a href="" className="flex-shrink-0 flex items-center">
-        <img className="h-15 w-auto" src={Logo} alt="Logo" />
+        <img className="h-30 w-auto" src={Logo} alt="Logo" />
       </a>
 
       {/* Desktop Menu */}
