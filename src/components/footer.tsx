@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import Logo from "../assets/logo.png";
 
 export default function Footer() {
@@ -31,9 +31,22 @@ export default function Footer() {
         <p>info@punchboxingacademy.com</p>
         <h2 className="font-bold mt-4">Social Media:</h2>
         <div className="flex justify-center gap-3 mt-2">
-          <FaFacebook className="text-2xl" />
-          <FaInstagram className="text-2xl" />
-          <FaWhatsapp className="text-2xl" />
+          {/* <FaFacebook className="text-2xl" /> */}
+          <a
+            href="https://www.instagram.com/punchboxingacademy.hk/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagram className="text-2xl" />
+          </a>
+
+          <a
+            href="https://wa.me/85294338092"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaWhatsapp className="text-2xl" />
+          </a>
         </div>
       </div>
     </footer>

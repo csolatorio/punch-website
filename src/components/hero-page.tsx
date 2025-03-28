@@ -18,7 +18,7 @@ const HeroPage = () => {
             A Boxing Workout That Hits Different
           </h1>
           <p
-            className="text-lg md:text-base sm:text-sm mb-8 leading-relaxed"
+            className="text-xl md:text-base sm:text-sm mb-8 leading-relaxed"
             style={{ color: "white" }}
           >
             The perfect blend of boxing techniques and full-body fitness crafted

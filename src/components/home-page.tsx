@@ -6,7 +6,7 @@ import Footer from "./footer"; // Ensure Footer is a valid React component
 // import CorporateWellness from "./corporate-wellness";
 import AboutUs from "./about-us";
 import CTABanner from "./ctabanner";
-import PromoPage from "./promo-page";
+// import PromoPage from "./promo-page";
 import ContactGym from "./contact-gym";
 import Locations from "./locations";
 
@@ -20,7 +20,7 @@ const HomePage = () => {
       <WelcomePage />
       <BoxingPromo />
       <AboutUs />
-      <PromoPage />
+
       <Locations />
       <CTABanner />
       <ContactGym />
@@ -29,7 +29,7 @@ const HomePage = () => {
       {/* /* <OfferPage />
       <CorporateWellness />
       <AboutUs />
-     
+     <PromoPage />
       
        */}
       <Footer />
