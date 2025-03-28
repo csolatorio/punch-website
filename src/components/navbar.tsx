@@ -12,9 +12,11 @@ const Navbar: React.FC = () => {
     <header className="bg-[#EBE8DE] shadow-lg px-4 md:px-6 lg:px-8">
       <div className="flex items-center justify-between h-24">
         {/* Logo */}
-        <a href="" className="flex-shrink-0 flex items-center">
-          <img className="h-20 w-auto" src={Logo} alt="Logo" />
-        </a>
+        <Link to="/">
+          <a href="" className="flex-shrink-0 flex items-center">
+            <img className="h-20 w-auto" src={Logo} alt="Logo" />
+          </a>
+        </Link>
 
         {/* Mobile Menu Button */}
         <div className="md:hidden">
@@ -44,7 +46,11 @@ const Navbar: React.FC = () => {
               <span>Classes ▾</span>
             </a>
             <div className="absolute z-10 right-0 mt-2 w-48 bg-white shadow-lg rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <a className="block px-4 py-2 hover:bg-gray-100">Group Classes</a>
+              <Link to="/group-classes">
+                <a className="block px-4 py-2 hover:bg-gray-100">
+                  Group Classes
+                </a>
+              </Link>
               <Link to="/corporate-wellness">
                 <a className="block px-4 py-2 hover:bg-gray-100">
                   Corporate Classes
@@ -93,7 +99,11 @@ const Navbar: React.FC = () => {
             </span>
             {isDropdownOpen && (
               <div className="mt-2 space-y-2">
-                <a className="block">Group Classes</a>
+                <Link to="/group-classes">
+                  <a className="block px-4 py-2 hover:bg-gray-100">
+                    Group Classes
+                  </a>
+                </Link>
                 <Link to="/corporate-wellness">
                   <a className="block" onClick={() => setIsOpen(false)}>
                     Corporate Classes

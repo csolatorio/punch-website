@@ -14,6 +14,7 @@ import PromoPage from "./components/promo-page";
 import ContactGym from "./components/contact-gym";
 import PersonalTraining from "./components/personal-training";
 import Locations from "./components/locations";
+import GroupClass from "./components/group-classes";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/contact-gym" element={<ContactGym />} />
           <Route path="/personal-training" element={<PersonalTraining />} />
           <Route path="/locations" element={<Locations />} />
+          <Route path="/group-classes" element={<GroupClass />} />
         </Routes>
       </Router>
     </>
