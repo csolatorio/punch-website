@@ -3,7 +3,7 @@ import Logo from "../assets/logo.png";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#EAE6DC] text-black py-10 px-8 flex flex-col md:flex-row justify-between items-center md:items-start text-sm">
+    <footer className="bg-[#EAE6DC] text-black py-10 pl-4 pr-8 flex flex-col md:flex-row justify-between items-center md:items-start text-sm">
       <div className="md:w-1/3 mb-6 md:mb-0">
         <img className="h-15 w-auto" src={Logo} alt="Logo" />
         <p>
@@ -15,7 +15,7 @@ export default function Footer() {
         </p>
       </div>
 
-      <div className="md:w-1/3 mb-6 md:mb-0">
+      <div className="md:w-1/3 mb-6 md:mb-0 flex flex-col items-end text-left">
         <h2 className="font-bold mb-2">Quick Links:</h2>
         <ul>
           <li className="font-bold">Home</li>
@@ -25,12 +25,12 @@ export default function Footer() {
         </ul>
       </div>
 
-      <div className="md:w-1/3 text-center md:text-right">
+      <div className="md:w-1/3 mb-6 md:mb-0 flex flex-col items-end text-left">
         <h2 className="font-bold mb-2">Contact Us:</h2>
         <p>+852 9433 8092</p>
         <p>info@punchboxingacademy.com</p>
         <h2 className="font-bold mt-4">Social Media:</h2>
-        <div className="flex justify-center md:justify-end gap-3 mt-2">
+        <div className="flex justify-center gap-3 mt-2">
           <FaFacebook className="text-2xl" />
           <FaInstagram className="text-2xl" />
           <FaWhatsapp className="text-2xl" />

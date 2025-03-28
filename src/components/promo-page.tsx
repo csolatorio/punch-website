@@ -1,5 +1,5 @@
 import React from "react";
-import GymImage from "../assets/gym-photo.png";
+import GymImage from "../assets/ry-fitness.jpg";
 
 const PromoPage: React.FC = () => {
   return (
