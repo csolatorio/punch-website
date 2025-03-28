@@ -43,14 +43,14 @@ const ContactGym = () => {
               type="text"
               name="firstName"
               placeholder="First name"
-              className="w-1/2 p-2 rounded bg-[#EBE8DE] text-gray-800"
+              className="w-1/2 p-2 rounded bg-white text-gray-800"
               onChange={handleChange}
             />
             <input
               type="text"
               name="lastName"
               placeholder="Last name"
-              className="w-1/2 p-2 rounded bg-[#EBE8DE] text-gray-800"
+              className="w-1/2 p-2 rounded bg-white text-gray-800"
               onChange={handleChange}
             />
           </div>
@@ -58,13 +58,13 @@ const ContactGym = () => {
             type="email"
             name="email"
             placeholder="Email"
-            className="w-full p-2 rounded bg-[#EBE8DE] text-gray-800"
+            className="w-full p-2 rounded bg-white text-gray-800"
             onChange={handleChange}
           />
           <textarea
             name="message"
             placeholder="Message"
-            className="w-full p-2 rounded bg-[#EBE8DE] text-gray-800 h-24"
+            className="w-full p-2 rounded bg-white text-gray-800 h-24"
             onChange={handleChange}
           />
 
