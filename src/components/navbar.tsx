@@ -58,10 +58,11 @@ const Navbar: React.FC = () => {
               </Link>
             </div>
           </div>
-
-          <a className="p-3 xl:p-6">
-            <span>Contact Us</span>
-          </a>
+          <Link to="/contact-us">
+            <a className="p-3 xl:p-6">
+              <span>Contact Us</span>
+            </a>
+          </Link>
 
           <div className="flex items-center px-4 lg:px-6 xl:px-8">
             <button className="bg-black hover:bg-gray-700 text-white font-bold px-4 xl:px-6 py-2 xl:py-3 rounded">
