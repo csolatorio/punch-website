@@ -1,11 +1,11 @@
 import Image1 from "../assets/stacey.png";
 import Image2 from "../assets/stacey1.png";
 import Image3 from "../assets/stacey2.png";
-import Image4 from "../assets/box-training.png";
+// import Image4 from "../assets/box-training.png";
 
 const AboutUs = () => {
   return (
-    <div className="max-w-5xl mx-auto p-8 grid gap-8">
+    <div className="max-w-5xl mx-auto p-6 grid gap-8 mt-10 mb-10 flex items-center justify-center p-8">
       {/* About Us Section */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
         <div className="md:col-span-2 ">

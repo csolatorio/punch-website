@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ImageRY from "../assets/ry-fitness.jpg";
 
 const ContactGym = () => {
   const [formData, setFormData] = useState({
@@ -81,6 +82,14 @@ const ContactGym = () => {
             </button>
           </div>
         </form>
+      </div>
+
+      <div className="max-w-7xl mx-auto p-8 ml-20">
+        <img
+          src={ImageRY}
+          alt="Happy Valley Location"
+          className="w-100 h-auto mt-4"
+        />
       </div>
     </div>
   );

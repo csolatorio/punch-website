@@ -5,9 +5,9 @@ import WelcomePage from "./welcome-section";
 import Footer from "./footer"; // Ensure Footer is a valid React component
 // import CorporateWellness from "./corporate-wellness";
 import AboutUs from "./about-us";
-// import CTABanner from "./ctabanner";
+import CTABanner from "./ctabanner";
 import PromoPage from "./promo-page";
-// import ContactGym from "./contact-gym";
+import ContactGym from "./contact-gym";
 import Locations from "./locations";
 
 import { FaWhatsapp } from "react-icons/fa";
@@ -22,11 +22,14 @@ const HomePage = () => {
       <AboutUs />
       <PromoPage />
       <Locations />
+      <CTABanner />
+      <ContactGym />
+
       {/* <ContactGym /> */}
       {/* /* <OfferPage />
       <CorporateWellness />
       <AboutUs />
-      <CTABanner />
+     
       
        */}
       <Footer />
