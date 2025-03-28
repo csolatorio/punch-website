@@ -4,7 +4,7 @@ import HeroPage from "../components/hero-page";
 import WelcomePage from "./welcome-section";
 import Footer from "./footer"; // Ensure Footer is a valid React component
 // import CorporateWellness from "./corporate-wellness";
-// import AboutUs from "./about-us";
+import AboutUs from "./about-us";
 // import CTABanner from "./ctabanner";
 import PromoPage from "./promo-page";
 // import ContactGym from "./contact-gym";
@@ -19,6 +19,7 @@ const HomePage = () => {
       <HeroPage />
       <WelcomePage />
       <BoxingPromo />
+      <AboutUs />
       <PromoPage />
       <Locations />
       {/* <ContactGym /> */}

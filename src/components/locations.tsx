@@ -28,7 +28,7 @@ const Locations = () => {
           </p>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.960529717415!2d114.18341141171337!3d22.279484943563396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400fe187d75cf%3A0x1c2bf7df77309566!2zUlkgRml0bmVzc-WBpei6q-S4reW_gw!5e0!3m2!1sen!2sph!4v1743132484338!5m2!1sen!2sph"
-            width="600"
+            width="430"
             height="300"
             style={{ border: 0 }}
             allowFullScreen={true}
