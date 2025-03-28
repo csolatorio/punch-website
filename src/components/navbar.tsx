@@ -115,15 +115,20 @@ const Navbar: React.FC = () => {
               </div>
             )}
           </div>
-          <a className="block" onClick={() => setIsOpen(false)}>
-            Contact Us
-          </a>
-          <button
-            className="bg-black hover:bg-gray-700 text-white font-bold px-4 py-2 rounded mb-10"
-            onClick={() => setIsOpen(false)}
-          >
-            Book Now
-          </button>
+          <Link to="/contact-us">
+            <a className="block" onClick={() => setIsOpen(false)}>
+              Contact Us
+            </a>
+          </Link>
+
+          <Link to="/book-now">
+            <button
+              className="bg-black hover:bg-gray-700 text-white font-bold px-4 py-2 rounded mb-10"
+              onClick={() => setIsOpen(false)}
+            >
+              Book Now
+            </button>
+          </Link>
         </ul>
       )}
     </header>
