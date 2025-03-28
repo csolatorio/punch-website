@@ -33,24 +33,24 @@ const ContactGym = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row justify-between p-8 max-w-6xl mx-auto">
+    <div className="flex flex-col-reverse lg:flex-row justify-between p-4 md:p-8 max-w-6xl mx-auto gap-8">
       {/* Contact Form */}
-      <div className="w-full md:w-1/2">
+      <div className="w-full lg:w-1/2">
         <h2 className="text-2xl font-bold mb-4">Get in Touch</h2>
         <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
-          <div className="flex space-x-4">
+          <div className="flex flex-col sm:flex-row gap-4">
             <input
               type="text"
               name="firstName"
               placeholder="First name"
-              className="w-1/2 p-2 rounded bg-white text-gray-800"
+              className="w-full sm:w-1/2 p-2 rounded bg-white text-gray-800"
               onChange={handleChange}
             />
             <input
               type="text"
               name="lastName"
               placeholder="Last name"
-              className="w-1/2 p-2 rounded bg-white text-gray-800"
+              className="w-full sm:w-1/2 p-2 rounded bg-white text-gray-800"
               onChange={handleChange}
             />
           </div>
@@ -85,16 +85,18 @@ const ContactGym = () => {
         </form>
       </div>
 
-      <div className="max-w-7xl mx-auto p-8 ml-20">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.960529717415!2d114.18341141171337!3d22.279484943563396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400fe187d75cf%3A0x1c2bf7df77309566!2zUlkgRml0bmVzc-WBpei6q-S4reW_gw!5e0!3m2!1sen!2sph!4v1743132484338!5m2!1sen!2sph"
-          width="430"
-          height="300"
-          style={{ border: 0 }}
-          allowFullScreen={true}
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-        ></iframe>
+      {/* Map */}
+      <div className="w-full lg:w-1/2 p-4">
+        <div className="w-full aspect-video">
+          <iframe
+            className="w-full h-full"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.960529717415!2d114.18341141171337!3d22.279484943563396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400fe187d75cf%3A0x1c2bf7df77309566!2zUlkgRml0bmVzc-WBpei6q-S4reW_gw!5e0!3m2!1sen!2sph!4v1743132484338!5m2!1sen!2sph"
+            style={{ border: 0 }}
+            allowFullScreen={true}
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </div>
     </div>
   );
