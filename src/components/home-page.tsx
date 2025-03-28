@@ -5,7 +5,7 @@ import WelcomePage from "./welcome-section";
 import Footer from "./footer"; // Ensure Footer is a valid React component
 // import CorporateWellness from "./corporate-wellness";
 import AboutUs from "./about-us";
-import CTABanner from "./ctabanner";
+// import CTABanner from "./ctabanner";
 // import PromoPage from "./promo-page";
 import ContactGym from "./contact-gym";
 import Locations from "./locations";
@@ -15,14 +15,16 @@ import BoxingPromo from "./we-love-boxing";
 
 const HomePage = () => {
   return (
-    <div className="min-h-[50vh] bg-white">
+    <div className="min-h-[50vh] bg-[#EAE6DC]">
       <HeroPage />
       <WelcomePage />
       <BoxingPromo />
       <AboutUs />
+      <div className="min-h-[50vh] bg-white">
+        <Locations />
+      </div>
 
-      <Locations />
-      <CTABanner />
+      {/* <CTABanner /> */}
       <ContactGym />
 
       {/* <ContactGym /> */}

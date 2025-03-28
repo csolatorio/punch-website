@@ -1,6 +1,6 @@
 const WelcomePage = () => {
   return (
-    <div className="relative w-full text-white px-4 sm:px-6 lg:px-8">
+    <div className="relative  w-full text-white px-4 sm:px-6 lg:px-8 bg-[#EAE6DC]">
       <section className="flex items-center justify-center min-h-[30vh] mb-15">
         <div className="relative max-w-6xl text-[#1E1E1E] text-center">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold mb-6 sm:mb-8 md:mb-10">

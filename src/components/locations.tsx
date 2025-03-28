@@ -1,6 +1,6 @@
 // import { useState } from "react";
 import ImageValley from "../assets/happy-valley.jpg";
-import ImageRY from "../assets/ry-fitness.jpg";
+import ImageRY from "../assets/ry-fitness.png";
 
 const Locations = () => {
   return (
@@ -20,21 +20,21 @@ const Locations = () => {
           <img
             src={ImageRY}
             alt="Happy Valley Location"
-            className="w-full h-auto mt-4"
+            className="w-full h-auto mt-9"
           />
         </div>
       </section>
 
       <section className="bg-white text-black py-12 px-8 text-center w-full md:w-1/2">
         <div className="max-w-7xl mx-auto p-6">
-          <p className="text-3xl md:text-3xl font-bold mt-20 md:mt-20 mb-9">
+          <p className="text-3xl md:text-3xl font-bold mt-10 md:mt-20 mb-9">
             Happy Valley Recreation Ground Location, The Hong Kong Jockey Club
             Headquarters, Sports Rd, Happy Valley, Hong Kong
           </p>
           <img
             src={ImageValley}
             alt="Happy Valley Location"
-            className="w-100 h-auto mt-4"
+            className="w-full h-auto mt-4"
           />
         </div>
       </section>

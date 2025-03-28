@@ -1,15 +1,16 @@
-import BoxingV from "../assets/boxing-victory.png";
+// import BoxingV from "../assets/boxing-victory.png";
+import Image3 from "../assets/stacey2.png";
 
 const BoxingPromo = () => {
   return (
-    <div className="bg-[#EBE8DE] min-h-screen flex items-center justify-center p-8">
+    <div className="bg-white min-h-screen flex items-center justify-center p-8">
       <div className="max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {/* Image Section */}
         <div className="relative">
           <img
-            src={BoxingV}
+            src={Image3}
             alt="Boxing Victory"
-            className="w-full h-auto rounded-lg shadow-lg"
+            className="w-full h-auto rounded shadow-lg"
           />
         </div>
 

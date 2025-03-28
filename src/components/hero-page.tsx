@@ -3,16 +3,16 @@ import Navbar from "./navbar";
 
 const HeroPage = () => {
   return (
-    <div className="relative w-full min-h-screen text-white">
+    <div className="relative bg-[#EAE6DC] w-full min-h-screen text-white">
       <Navbar />
       <section
-        className="relative w-full min-h-[75vh] flex items-center justify-start bg-cover bg-center bg-no-repeat"
+        className="relative bg-[#EAE6DC] w-full min-h-[75vh] flex items-center justify-start bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroBanner})` }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative max-w-6xl text-white text-left p-8 ml-12 lg:ml-10 md:ml-6 sm:ml-4 sm:p-4">
           <h1
-            className="text-6xl lg:text-8xl md:text-3xl sm:text-2xl font-semibold mb-8 leading-tight"
+            className="text-5xl lg:text-8xl md:text-4xl sm:text-2xl font-bold mb-8 leading-tight"
             style={{ color: "white" }}
           >
             A Boxing Workout That Hits Different

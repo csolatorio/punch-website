@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { FaWhatsapp } from "react-icons/fa";
 // import ImageRY from "../assets/ry-fitness.jpg";
 
 const ContactGym = () => {
@@ -76,9 +77,9 @@ const ContactGym = () => {
             <button
               type="button"
               onClick={handleSendWhatsApp}
-              className="px-6 py-3 bg-green-500 text-white rounded shadow-lg"
+              className="px-6 py-3 bg-green-500 text-white rounded shadow-lg flex items-center gap-2"
             >
-              Send via WhatsApp
+              Send via <FaWhatsapp className="text-xl" />
             </button>
           </div>
         </form>

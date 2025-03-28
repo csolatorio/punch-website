@@ -1,17 +1,16 @@
-import Image1 from "../assets/stacey.png";
+// import Image1 from "../assets/stacey.png";
 import Image2 from "../assets/stacey1.png";
-import Image3 from "../assets/stacey2.png";
 // import Image4 from "../assets/box-training.png";
 
 const AboutUs = () => {
   return (
-    <div className="max-w-5xl mx-auto p-6 grid gap-8 mt-10 mb-10 flex items-center justify-center p-8">
+    <div className="bg-[#EAE6DC] max-w-5xl mx-auto p-6 grid gap-8 mt-10 mb-5 flex items-center justify-center p-8">
       {/* About Us Section */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
         <div className="md:col-span-2 ">
           <div className="flex flex-wrap items-center gap-2 mb-4">
-            <div className="w-16 h-16 bg-[#EBE8DE]"></div>
-            <div className="w-5 h-16 bg-[#EBE8DE]"></div>
+            <div className="w-16 h-16 bg-white"></div>
+            <div className="w-5 h-16 bg-white"></div>
             <h2 className="text-3xl md:text-4xl font-bold">Meet Stacey</h2>
           </div>
           {/* <h2 className="text-3xl md:text-4xl font-bold">Stacey Pincher</h2> */}
@@ -32,14 +31,10 @@ const AboutUs = () => {
         </div>
         <div className="flex flex-col items-center gap-4">
           <img
-            src={Image1}
+            src={Image2}
             alt="Stacey Pincher"
-            className="w-400 object-cover rounded"
+            className="w-auto h-100 object-cover rounded"
           />
-          <div className="grid grid-cols-2 gap-2">
-            <img src={Image2} alt="" className="w-200 object-cover rounded" />
-            <img src={Image3} alt="" className="w-200 object-cover rounded" />
-          </div>
         </div>
       </div>
 

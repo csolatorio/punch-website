@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 :root {
-  font-family: 'Poppins', 'Tenor Sans', 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Open Sans', 'Tenor Sans', 'Segoe UI', 'Roboto',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
   line-height: 1.5;
@@ -32,7 +32,7 @@ a {
 
 body {
   margin: 0;
-  font-family: 'Poppins', 'Tenor Sans', 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Tenor Sans', 'Open Sans', 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -45,9 +45,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  /* font-weight: 800; */
+  color: #000;
 }
 
 button {
