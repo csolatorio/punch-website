@@ -38,7 +38,9 @@ const ContactUs = () => {
       <Navbar />
 
       <div className="mb-10 text-left p-4 md:p-8 max-w-6xl mx-auto">
-        <h2 className="mb-10 text-3xl md:text-4xl font-bold">Contact Us</h2>
+        <h2 className="mb-10 text-3xl md:text-4xl font-bold">
+          Connect with Us
+        </h2>
         <p className="text-gray-700 text-sm">Phone: +852 9433 8092</p>
         <p className="text-gray-700 text-sm">
           Email: info@punchboxingacademy.com
