@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Navbar from "./navbar";
-// import { div } from "framer-motion/client";
 
 const ComingSoon: React.FC = () => {
   return (
@@ -21,8 +20,7 @@ const ComingSoon: React.FC = () => {
             🚧 Coming Soon 🚧
           </h1>
           <p className="text-gray-300 text-lg sm:text-xl mt-10 mb-6">
-            Punch and empower your team through the transformative art of
-            boxing.
+            We're cooking up something amazing! Stay tuned for updates.
           </p>
           <div className="flex justify-center">
             {/* <button className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-2xl shadow-lg transition duration-300">
