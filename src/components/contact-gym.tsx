@@ -82,19 +82,6 @@ const ContactGym = () => {
           </div>
         </form>
       </div>
-
-      {/* Gym Location */}
-      <div className="w-full md:w-1/2 mt-8 md:mt-0 md:pl-8">
-        <h2 className="text-lg font-bold mb-4">
-          RY Fitness - 17/F, Sun King Building, 56 Yee Wo Street, Causeway Bay,
-          Hong Kong SAR
-        </h2>
-        <iframe
-          className="w-full h-64 border rounded"
-          src="https://www.google.com/maps?q=56+Yee+Wo+Street,+Causeway+Bay,+Hong+Kong+SAR&output=embed"
-          allowFullScreen
-        ></iframe>
-      </div>
     </div>
   );
 };
