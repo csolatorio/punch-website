@@ -34,12 +34,24 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="relative w-full h-screen text-white bg-white">
+    <div className="relative w-full h-screen text-white bg-[#EAE6DC] ">
       <Navbar />
+
+      <div className="mb-10 text-left p-4 md:p-8 max-w-6xl mx-auto">
+        <h2 className="mb-10 text-3xl md:text-4xl font-bold">Contact Us</h2>
+        <p className="text-gray-700 text-sm">Phone: +852 9433 8092</p>
+        <p className="text-gray-700 text-sm">
+          Email: info@punchboxingacademy.com
+        </p>
+        <p className="text-gray-700 text-sm">
+          Address: RY Fitness 17/F, Sun King Building, 56 Yee Wo Street,
+          Causeway Bay, Hong Kong SAR
+        </p>
+      </div>
       <div className="flex flex-col-reverse lg:flex-row justify-between p-4 md:p-8 max-w-6xl mx-auto gap-8">
         {/* Contact Form */}
+
         <div className="w-full lg:w-1/2">
-          <h2 className="text-2xl font-bold mb-4">Get in Touch</h2>
           <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
             <div className="flex flex-col sm:flex-row gap-4">
               <input
