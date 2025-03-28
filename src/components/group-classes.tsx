@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Navbar from "./navbar";
-import { div } from "framer-motion/client";
+// import { div } from "framer-motion/client";
 
 const ComingSoon: React.FC = () => {
   return (
