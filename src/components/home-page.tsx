@@ -39,7 +39,7 @@ const HomePage = () => {
       {/* WhatsApp Icon */}
       <a
         href="https://wa.me/85294338092"
-        className="fixed bottom-15 right-15 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition"
+        className="fixed bottom-15 right-5 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition"
         target="_blank"
         rel="noopener noreferrer"
       >
