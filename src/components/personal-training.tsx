@@ -1,6 +1,7 @@
 import Navbar from "./navbar";
 import Footer from "./footer";
 import { Dumbbell, Target, ShieldCheck, Brain } from "lucide-react";
+import ContactGym from "./contact-gym";
 
 export default function PersonalTraining() {
   return (
@@ -25,7 +26,7 @@ export default function PersonalTraining() {
             fitness aspirations.
           </p>
           <h2 className="text-3xl md:text-3xl font-bold mt-10">
-            MOBILE PERSONAL TRAINING
+            Mobile Personal Training
           </h2>
           <p className="text-gray-600 mb-10 mt-8 text-lg md:text-base text-center">
             Enjoy personal training that comes to you! Save time on travel and
@@ -33,6 +34,18 @@ export default function PersonalTraining() {
             at home. We’ll adapt to your schedule and make your fitness journey
             seamless and enjoyable!
           </p>
+
+          <h2 className="text-3xl md:text-3xl font-bold mt-10">
+            Small Group Training
+          </h2>
+          <p className="text-gray-600 mb-10 mt-8 text-lg md:text-base text-center">
+            Take advantage of training with friends and experience the personal
+            touch of our intimate boxing sessions! Stay motivated and receive
+            tailored guidance from our professional trainers. Get fit together!
+            <br />
+            Additional $150 per session, per person. Max 4 people per session.
+          </p>
+          <p className="text-gray-600 mb-10 mt-8 text-lg md:text-base text-center"></p>
           <h2 className="text-3xl md:text-3xl font-bold mt-8 ">
             What You Can Expect
           </h2>
@@ -86,6 +99,7 @@ export default function PersonalTraining() {
           </div>
         </div>
       </section>
+      <ContactGym />
       <Footer />
     </div>
   );
