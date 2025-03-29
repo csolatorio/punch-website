@@ -39,14 +39,8 @@ export default function CorporateWellness() {
         <div className="flex flex-wrap justify-center gap-8 mt-10 md:gap-4 md:w-[80%] mx-auto">
           {/* Card 1 */}
           <div className="relative w-64 h-64 bg-[#EBE8DE] bg-opacity-50 text-white flex flex-col justify-center items-center shadow-lg">
-            {/* <img
-              src="/images/team-building.jpg"
-              alt="Team Building"
-              className="absolute inset-0 w-full h-full object-cover opacity-60"
-            /> */}
-            <h2 className="font-bold text-lg relative flex items-center gap-2">
-              <FaBrain /> Mental Resilience
-            </h2>
+            <FaBrain className="text-white w-8 h-8 mb-2" />
+            <h2 className="font-bold text-lg text-center">Mental Resilience</h2>
             <p className="text-sm relative text-center px-4 mt-2">
               Boxing builds mental toughness, equipping employees with the
               resilience to face challenges confidently.
@@ -55,14 +49,8 @@ export default function CorporateWellness() {
 
           {/* Card 2 */}
           <div className="relative w-64 h-64 bg-[#EBE8DE] bg-opacity-50 text-white flex flex-col justify-center items-center shadow-lg">
-            {/* <img
-              src="/images/memorable-bonding.jpg"
-              alt="Memorable Bonding"
-              className="absolute inset-0 w-full h-full object-cover opacity-60"
-            /> */}
-            <h2 className="font-bold text-lg relative flex items-center gap-2">
-              <FaSmileBeam /> Stress Relief
-            </h2>
+            <FaSmileBeam className="text-white w-8 h-8 mb-2" />
+            <h2 className="font-bold text-lg text-center">Stress Relief</h2>
             <p className="text-sm relative text-center px-4 mt-2">
               Enjoy a dynamic workout that reduces stress and promotes a
               positive mindset, boosting overall workplace morale.
@@ -71,14 +59,8 @@ export default function CorporateWellness() {
 
           {/* Card 3 */}
           <div className="relative w-64 h-64 bg-[#EBE8DE] bg-opacity-50 text-white flex flex-col justify-center items-center shadow-lg">
-            {/* <img
-              src="/images/team-building.jpg"
-              alt="Team Building"
-              className="absolute inset-0 w-full h-full object-cover opacity-60"
-            /> */}
-            <h2 className="font-bold text-lg relative flex items-center gap-2">
-              <FaUsers /> Team Building
-            </h2>
+            <FaUsers className="text-white w-8 h-8 mb-2" />
+            <h2 className="font-bold text-lg text-center">Team Building</h2>
             <p className="text-sm relative text-center px-4 mt-2">
               Strengthen connections among colleagues with collaborative
               training sessions that nurture teamwork and communication.
@@ -87,14 +69,8 @@ export default function CorporateWellness() {
 
           {/* Card 4 */}
           <div className="relative w-64 h-64 bg-[#EBE8DE] bg-opacity-50 text-white flex flex-col justify-center items-center shadow-lg">
-            {/* <img
-              src="/images/memorable-bonding.jpg"
-              alt="Memorable Bonding"
-              className="absolute inset-0 w-full h-full object-cover opacity-60"
-            /> */}
-            <h2 className="font-bold text-lg relative flex items-center gap-2">
-              <FaHeart /> Memorable Bonding
-            </h2>
+            <FaHeart className="text-white w-8 h-8 mb-2" />
+            <h2 className="font-bold text-lg text-center">Memorable Bonding</h2>
             <p className="text-sm relative text-center px-4 mt-2">
               Create lasting memories as team members motivate and challenge one
               another, deepening workplace relationships.
@@ -103,14 +79,11 @@ export default function CorporateWellness() {
 
           {/* Card 5 */}
           <div className="relative w-64 h-64 bg-[#EBE8DE] bg-opacity-50 text-white flex flex-col justify-center items-center shadow-lg">
-            {/* <img
-              src="/images/pushing-limits.jpg"
-              alt="Pushing Limits"
-              className="absolute inset-0 w-full h-full object-cover opacity-60"
-            /> */}
-            <h2 className="font-bold text-lg relative flex items-center gap-2">
-              <FaShieldAlt /> Self-Defense Skills
+            <FaShieldAlt className="text-white w-8 h-8 mb-2" />
+            <h2 className="font-bold text-lg text-center">
+              Self-Defense Skills
             </h2>
+            <div></div>
             <p className="text-sm relative text-center px-4 mt-2">
               Equip your team with practical self-defense techniques, empowering
               them to feel safer and more confident both in and out of the
@@ -120,14 +93,8 @@ export default function CorporateWellness() {
 
           {/* Card 6 */}
           <div className="relative w-64 h-64 bg-[#EBE8DE] bg-opacity-50 text-white flex flex-col justify-center items-center shadow-lg">
-            {/* <img
-              src="/images/pushing-limits.jpg"
-              alt="Pushing Limits"
-              className="absolute inset-0 w-full h-full object-cover opacity-60"
-            /> */}
-            <h2 className="font-bold text-lg relative flex items-center gap-2">
-              <FaBullseye /> Enhanced Focus
-            </h2>
+            <FaBullseye className="text-white w-8 h-8 mb-2" />
+            <h2 className="font-bold text-lg text-center">Enhanced Focus</h2>
             <p className="text-sm relative text-center px-4 mt-2">
               Help participants sharpen their concentration and productivity by
               channeling their energy through boxing techniques.
@@ -136,14 +103,8 @@ export default function CorporateWellness() {
 
           {/* Card 7 */}
           <div className="relative w-64 h-64 bg-[#EBE8DE] bg-opacity-50 text-white flex flex-col justify-center items-center shadow-lg">
-            {/* <img
-              src="/images/pushing-limits.jpg"
-              alt="Pushing Limits"
-              className="absolute inset-0 w-full h-full object-cover opacity-60"
-            /> */}
-            <h2 className="font-bold text-lg relative flex items-center gap-2">
-              <FaBalanceScale /> Work-Life Balance
-            </h2>
+            <FaBalanceScale className="text-white w-8 h-8 mb-2" />
+            <h2 className="font-bold text-lg text-center">Work-Life Balance</h2>
             <p className="text-sm relative text-center px-4 mt-2">
               Our classes encourage employees to step away from their daily
               routines, nurturing a healthier balance in their lives.

@@ -20,7 +20,7 @@ const BoxingPromo = () => {
             We love boxing.
           </h2>
           <p className="text-lg leading-relaxed mb-4 text-justify">
-            We’re on a mission to make boxing a part of your everyday life! We
+            We’re on a mission to make boxing a part of our everyday life! We
             believe in breaking down the stigma surrounding boxing, and our
             program is thoughtfully designed with the female body in mind. With
             every punch, you’ll not only boost your confidence but also learn
